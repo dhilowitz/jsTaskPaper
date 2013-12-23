@@ -2,13 +2,17 @@
 
 Javascript library to convert TaskPaper todo lists to HTML. Based on Jim Kang's [tp_to_html.pl](http://death-mountain.com/2010/05/taskpaper-to-html-conversion-script// "tp_to_html.pl").
 
+## Requirements ##
+
+jQuery 2.0.3
+
 ## Usage ##
 
-#### HTML ####
+Usage is prettty simple. You create a div in your HTML like so:
 
         <div id="scratchTasks" class="taskDiv"></div>
 
-#### Javascript ####
+and then you link it to the Javascript
 
         <script type="text/JavaScript">
 		$(document).ready(function(){
