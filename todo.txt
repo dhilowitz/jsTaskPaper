@@ -1,0 +1,6 @@
+Project 1:
+	- Task 1 @tag1 @tag2 @home
+	- Task 2 @p(2)
+	- Task 3 @p(3)
+Project 2:
+	- Task 4 @p(4)
