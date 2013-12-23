@@ -1,0 +1,27 @@
+{
+  "name": "taskpaper",
+  "version": "0.0.0",
+  "authors": [
+    "David Hilowitz <dhilowitz@gmail.com>"
+  ],
+  "description": "A basic taskpaper visualizer for personal use only",
+  "main": "index.html",
+  "keywords": [
+    "taskpaper",
+    "css",
+    "html5"
+  ],
+  "license": "MIT",
+  "homepage": "http://projects.adornomedia.com/taskpaper",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.2"
+  }
+}

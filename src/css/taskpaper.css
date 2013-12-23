@@ -1,0 +1,98 @@
+
+body {
+	background-color: rgb(33,33,33);
+	color: #F8F8F2;
+	font-weight: 300;
+}
+
+h1 {
+	font-family: 'Helvetica Neue', Sans-serif;
+	font-weight: 100;
+	font-size: 1.7em;
+}
+
+
+div.taskDiv {
+	overflow:auto;
+}
+
+ul.tptop {
+}
+
+li.tptask {
+	 list-style-type: square;
+	 opacity: 0.5;
+}
+
+li.tpnote {
+	list-style: none;
+	color: rgb(127, 127, 127);
+}
+
+li.tpproject {
+	list-style: none;
+	font-family: 'Helvetica Neue';
+	list-style: none;
+	font-weight: 100;
+}
+
+ul li.tpproject{
+	font-size: 1.6em;
+	margin-left: -40px;
+}
+
+ul ul li.tpproject{
+	font-size: 1.5em;
+}
+
+ul ul ul li.tpproject{
+	font-size: 1.3em;
+}
+
+ul ul ul ul li.tpproject{
+	font-size: 1.2em;
+}
+
+ul ul ul ul ul li.tpproject{
+	font-size: 1.1em;
+}
+
+span.tptag {
+	color:rgb(173,173,173);
+	opacity: 1.0;
+}
+
+/* Tags */
+li.tptag-personal, li.tptag-home, li.tptag-blue {
+	color: rgb(64,128,183);
+} 
+
+li.tptag-p-1 {
+	color: rgb(255,128,128);
+}
+
+li.tptag-p-2 {
+	color: rgb(255,183,128);
+}
+
+li.tptag-p-3 {
+	color: rgb(255,255,128);
+}
+
+li.tptag-p-4 {
+	color: rgb(255,190,128);
+}
+
+li.tptag-p-5 {
+	color: rgb(183,128,255);
+}
+
+li.tptag-today {
+	opacity: 1.0;
+}
+
+li.tptag-done {
+	text-decoration: line-through; 
+	opacity: 0.5;
+	color: #F8F8F2;
+}
