@@ -1,3 +1,11 @@
+/***
+ * taskpaper.js - Convert TaskPaper text file to HTML
+ * Based heavily on tp_to_html.pl by Jim Kang
+ * http://death-mountain.com/2010/05/taskpaper-to-html-conversion-script/
+ *
+ * @author David Hilowitz <dhilowitz@gmail.com>, Jim Kang
+ **/
+
 function TaskPaperPanel (taskDivSelector, taskPaperUrl, updateFrequency) 
 {
 	if($(taskDivSelector).length == 0) {

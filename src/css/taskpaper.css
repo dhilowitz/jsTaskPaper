@@ -1,7 +1,9 @@
 /***
  * taskpaper.css - Styles for TaskPaper formatting
+ *
+ * @author David Hilowitz <dhilowitz@gmail.com>
  **/
- 
+
 body {
 	background-color: rgb(33,33,33);
 	color: #F8F8F2;
