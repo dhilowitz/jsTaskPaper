@@ -8,14 +8,18 @@ jQuery 2.0.3
 
 ## Usage ##
 
-Usage is prettty simple. You create a div in your HTML like so:
+Usage is pretty simple. You create a `<div>` in your HTML like so:
 
         <div id="scratchTasks" class="taskDiv"></div>
 
-and then you link it to the Javascript
+and then you invoke the Javascript lib as follows:
 
         <script type="text/JavaScript">
 		$(document).ready(function(){
 			new TaskPaperPanel('#scratchTasks', '<url-of-taskpaper-todo-file>', 4000);
 		});
 		</script>
+
+That's pretty much it. Style to your heart's content using the stylesheet in src/css/taskpaper.css.
+
+Each tags get its own CSS style. The tag `@home` would be styled as `li.tptag-home {}`.
