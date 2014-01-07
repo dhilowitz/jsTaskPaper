@@ -71,7 +71,7 @@ TaskPaperPanel.prototype.convertTaskpaperToHtml = function convertTaskpaperToHtm
 	// At the end of the file, close any open indentation tags.
 	for (j = 0; j < this.g_indentLevel; j++)
 	{
-		outputHtml = outputHtml +  kOutdentTag;
+		outputHtml = outputHtml +  this.kOutdentTag;
 	}
 	return "<ul class=\"tptop\">" + outputHtml + "</ul>";
 }
