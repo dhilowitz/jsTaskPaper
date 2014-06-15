@@ -22,4 +22,4 @@ and then you invoke the Javascript lib as follows:
 
 That's pretty much it. Style to your heart's content using the stylesheet in [src/css/taskpaper.css](https://github.com/dhilowitz/jsTaskPaper/blob/master/src/css/taskpaper.css "taskpaper.css").
 
-Each tag get its own CSS style. The tag `@home` would be styled as `li.tptag-home {color: rgb(64,128,183);}`.
+Each tag gets its own CSS style. For example, the tag `@home` would be styled as `li.tptag-home {color: rgb(64,128,183);}`.
